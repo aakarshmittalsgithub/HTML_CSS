@@ -1,0 +1,155 @@
+.header
+
+{
+    padding-top: 15px;
+    background-color: rgb(248, 248, 248); 
+    z-index: 1;
+    display: flex;
+    position:fixed;
+    top: 0px;
+    left: 110px;
+    right: 0px;
+    height: 60px;
+}
+
+.sides
+{
+    background-color: rgb(248, 248, 248);
+    flex-direction: column;
+    justify-content: center;
+    font-family: arial;
+    text-align: center;
+    position: fixed;
+    display:flex;
+    row-gap: 40px;
+    width: 110px;
+    top: 0px;
+    bottom:0px;
+    padding-bottom: 350px;
+    left:0px
+
+}
+
+.youtubelogo
+{
+    flex: 1;   
+    top:20px;
+    margin-left: 50px;
+    height:35px
+}
+
+.search
+{
+    flex: 1;
+    position:absolute;
+    margin-top: 5px;
+    width:600px;
+    height: 40px;
+    border-radius: 20px;
+    vertical-align: top;
+    margin-left: 150px;
+    
+}
+
+.sear
+{
+    position: relative;
+    margin-top: 15px;
+    position: absolute;
+    margin-left:160px ;
+    height:20px;
+}
+
+.mic
+{
+    position: fixed;
+    border-radius: 20px;
+    margin-top: 8px;
+    margin-left: 760px;
+    position:static;
+    height:35px;
+    background-color: rgb(237, 237, 237);
+}
+
+.options
+{
+    margin-left: 200px;
+    column-gap: 60px;
+    display: grid;
+    grid-template-columns: 20px 20px 20px 20px;
+    flex:1;
+}
+
+.sidimg
+{
+    justify-content: center;
+    height:45px
+
+}
+
+.videos
+{
+    margin-left:140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    margin-top:60px;
+    row-gap: 50px;
+    column-gap:40px;
+}
+
+.vid
+{
+}
+
+.video-details
+{   
+    font-family: arial;
+    margin-top: 25px;
+    display: flex;
+
+}
+
+.prof
+{
+border-radius: 40px;
+height: 50px;
+}
+
+.details
+{
+    flex-direction: column;
+    display: flex;
+    margin-left:30px ;
+    font-family:Arial;
+    font-size: 22;
+
+}
+
+.thumbnail
+{
+    cursor: pointer;
+    border-radius: 20px;
+    height:350px;
+}
+
+.sidediv:hover
+{
+    cursor:pointer;
+    background-color: rgb(213, 213, 213);
+}
+
+.mics
+{
+    position:relative;
+}
+
+.tooltip
+{
+    position:relative;
+    display:inline-block; 
+}
+
+.tooltip:hover + .tooltiptext
+{
+    visibility: visible;
+}
